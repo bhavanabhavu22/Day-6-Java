@@ -1,0 +1,23 @@
+class animal{
+    void set() {
+        System.out.println("Animal can eat");
+    }
+}
+        class bird {
+            void set(){
+                System.out.println("bird can fly ");
+            
+        }
+    }
+    public class singleinheritance
+        {
+            public static void main(String main[])
+            {
+                bird b=new bird();
+                animal a=new animal();
+            a.set();
+            b.set();
+            
+        }
+        }
+    
