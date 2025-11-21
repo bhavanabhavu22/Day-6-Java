@@ -1,0 +1,30 @@
+class animal{
+    void set() {
+        System.out.println("Animal can eat");
+    }
+}
+        class bird extends animal {
+            void face(){
+                System.out.println("bird can fly ");
+            }
+        }
+
+        class dog extends animal{
+            void bark(){
+                System.out.println("dog can byte");
+            }
+        }
+    public class multiinheritance
+        {
+            public static void main(String main[])
+            {
+                animal a=new animal();
+                bird b= new bird();
+                dog d=new dog();
+            a.set();
+            b.face();
+            d.bark();
+            
+        }
+        }
+    
