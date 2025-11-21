@@ -1,0 +1,43 @@
+class whatsapp{
+    void set(){
+        System.out.println("Whatsapp Features:");
+    }
+}
+class version1 extends whatsapp{
+    void chat(){
+        System.out.println("VERSION1 IS APPLICABLE FOR CHATTING");
+}
+}
+class version2 extends whatsapp{
+    void update(){
+        System.out.println("VERSION2 CAN HANDLE VOICE CALLS AND VIEDO CALLS");
+    }    
+}
+class version3 extends whatsapp{
+    void set(){
+        System.out.println("VERSION3 CAN CREATE A COMMUNITY");
+    }
+}
+class version4 extends whatsapp{
+    void data(){
+        System.out.println("LATEST VERSION-CHAT WITH AI MODULES");
+    
+    }
+}
+class Whatsappversions{
+    public static void main( String args[])
+    {
+        whatapp w=new whatapp();
+        version1 v1=new version1();
+        version2 v2=new version2();
+        version3 v3=new version3();
+        version4 v4=new version4();
+        
+        v1.chat();
+        v2.update();
+        v3.set();
+        v4.data();
+        
+
+    }
+}
